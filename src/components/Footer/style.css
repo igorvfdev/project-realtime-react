@@ -1,6 +1,13 @@
 
 .mainFooter{
     width: 100%;
-    height: 10px;
+    height: 47px;
     background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+.mainFooter img{
+    background-color: #FF8700;
+    margin-top: 15px;
 }

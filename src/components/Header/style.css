@@ -1,19 +1,38 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: Roboto, sans-serif;
 }
 
 .mainHeader{
-    background-color: aqua;
-
+    width: 100%;
+    height: 96px;
+    display: flex;
+    background-color: #F5F5F5;
+    box-shadow: 0 0 16px -12px black;
+    position: absolute;
+    top: 0%;
 }
 
 .logo{
-
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
 
 .divisorHeader{
-    
+   height: 24px;
+   border-left: 2px solid #E9E9E9;
+   margin-top: 36px;
+   
 }
+
+.mainHeader button{
+    width: 48px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 21px;
+}
+
 

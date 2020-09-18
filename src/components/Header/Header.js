@@ -1,17 +1,26 @@
 import React from 'react';
+import './style.css';
 
-const Header = () =>{
-    return(
-        <div className = 'mainHeader'>
-          <div className = 'logo'>
-            <h1>Header</h1>
-          </div>
-            <div className = 'divisorHeader'>
-
-            </div>
+function Header(){ 
+return(
+  <div>
+    <div className = 'mainHeader'>
+      <div className = 'logo'>
+        <img src="../assets/Logo.svg"/>
+      </div> 
+        <div className = 'divisorHeader'></div> 
+        <div className="btn-left">
+          <button>
+            <img src="../assets/security.svg"/>
+          </button>
+        
+          <button>
+            <img src="../assets/user.svg"/>
+          </button>
         </div>
-    )
-
+          
+    </div>
+  </div>
+ )
 }
-
 export default Header;
